@@ -21,7 +21,8 @@
     "build": "tsc",
     "dev": "tsc --watch",
     "preview": "astro dev",
-    "astro:preview": "astro preview"
+    "astro:preview": "astro preview",
+    "prepare": "npm run build"
   },
   "keywords": [
     "astro",
